@@ -1,0 +1,23 @@
+GRAPHICAL USER INTERFACE:(eg: calculator,notepad)
+2 types:
+TKINTER--> T silent
+PYQT-->most widely used nowadays
+'
+'
+TKINTER:
+*3 steps:
+1)create an instance with tk() class
+2)all application coding and widgets
+3)mainloop
+* The portfolio created has a page that will virtually be divided into grids and can be accessed by giving row and column number.
+*now the file is ready in .py format. But to make it work in all platforms, it has to be converted into .exe format (i.e) executable format.
+it is done using the app: pyinstaller
+so in cmd: pip install pyinstaller
+methods to create executable files:
+1) direct method: pyinstaller filename.py
+2)complex method: pyinstaller filename.py --onefile--noconsole --icon=favicon.ico
+
+DATABASE:
+MYSQL and SQLITE
+MYSQL is used for large application -requires server and a password
+SQLITE  is used for small application
